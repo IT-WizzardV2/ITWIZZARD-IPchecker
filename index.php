@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Mijn IP | IT-Wizzard</title>
+    <title>MijnIP | IT-Wizzard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Lars de Rover">
     <meta name="description" content="IT-Wizzard - IPcheck">
@@ -136,7 +136,7 @@
     <!-- wrap de tekst in een container div met de class "text-container" -->
     <div class="text-container">
         <img src="logo-small.png" alt="IT-Wizzard logo" class="logo">
-        <h1>IP-checker</h1>
+        <h1>MijnIP</h1>
         <h3>Bekijk hier de gegegevens van uw netwerkverbinding.</h3>
         <div class="bar-container up">
             <div class="bar">IPv4</div>
