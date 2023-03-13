@@ -76,6 +76,10 @@
         .text-container {
             width: 300px;
         }
+
+        h4 {
+            font-size: 15px;
+        }
     }
 
     @media screen and (min-width: 1000px) {
@@ -156,9 +160,11 @@
                 <h4 class="ipv4"><span id="ipv4"></span></h4>
                 </h4>
             </div>
+            <div class="bar space"></div>
             <div class="bar1">
                 <h4 class="IPv6"><span id="ipv6"></span></h4>
             </div>
+            <div class="bar space"></div>
             <div class="bar1">
                 <h4 class="provider"><span id="provider"></span></h4>
             </div>
