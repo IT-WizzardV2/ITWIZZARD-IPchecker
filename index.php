@@ -72,6 +72,12 @@
         margin-top: 60px;
     }
 
+    @media screen and (max-width: 1000px) {
+        .text-container {
+            width: 300px;
+        }
+    }
+
     @media screen and (min-width: 1000px) {
         h1 {
             font-size: 30px;
