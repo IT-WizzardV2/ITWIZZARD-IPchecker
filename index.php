@@ -11,7 +11,7 @@
     <link href='https://allfont.net/allfont.css?fonts=source-sans-pro-bold' rel='stylesheet' type='text/css' />
     <style type="text/css">
     body {
-        background-image: url("/images/background.png");
+        background-image: url("https://mijn.it-wizzard.nl/assets/img/background.jpg");
         height: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
