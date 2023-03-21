@@ -18,6 +18,10 @@ function file_get_contents_ssl($url)
     return $result;
 }
 
+if (isset($_SERVER['HTTP_CF_CONNECTING_IP']) && filter_var($_SERVER['HTTP_CF_CONNECTING_IP'], FILTER_VALIDATE_IP)) {
+    $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
+}
+
 $ip = $_SERVER['REMOTE_ADDR'];
 if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {
     $ipv6 = $ip;
