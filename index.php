@@ -111,7 +111,7 @@ $isp = $json["connection"]["isp"];
 
     @media screen and (max-width: 1000px) {
         .text-container {
-            width: 300px;
+            width: 350px;
         }
 
         h4 {
