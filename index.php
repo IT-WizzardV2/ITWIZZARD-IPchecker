@@ -23,7 +23,7 @@ if (isset($_SERVER['HTTP_CF_CONNECTING_IP']) && filter_var($_SERVER['HTTP_CF_CON
 $ip = $_SERVER['REMOTE_ADDR'];
 if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {
     $ipv6 = $ip;
-    $ipv4 = "Niet gevonden"
+    $ipv4 = "Niet gevonden";
 } else {
     $ipv6 = "Niet gevonden";
     $ipv4 = $ip;
