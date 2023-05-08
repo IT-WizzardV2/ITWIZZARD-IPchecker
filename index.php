@@ -44,6 +44,7 @@ $isp = $json["connection"]["isp"];
     <meta name="author" content="Lars de Rover">
     <meta name="description" content="IT-Wizzard - IPcheck">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link href='https://allfont.net/allfont.css?fonts=source-sans-pro-bold' rel='stylesheet' type='text/css' />
     <style type="text/css">
